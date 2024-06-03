@@ -1,0 +1,25 @@
+*{
+    color: darkmagenta;
+    /* This is the universal selector and will select all the elements from the file. */
+}
+p.eco{
+    color: brown;
+    /* This will select the paras with class eco */
+}
+.eco{
+    font-size: 20px;
+    /* This will select the elements which are in class eco */
+}
+body{
+    background-color: cornsilk;
+    /* This will select the whole body */
+}
+h1, h3{
+    text-align: center;
+    /* This is a group of elements, like it will select both h1 and h3. */
+}
+#m{
+    color: blue;
+    font-size: 46px;
+    /* This will select the element with id m */
+}

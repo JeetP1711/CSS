@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS</title>
+    <link rel="stylesheet" href="Selectors.css">
+</head>
+<body>
+    <h1 id="m">Selectors In CSS</h1>
+    <p class="eco">A CSS selector selects the HTML element(s) you want to style.</p>
+    <h1>Types Of Selectors: </h1>
+    <ol class="eco">
+        <li>Simple selectors (select elements based on name, id, class)</li>
+        <li>Combinator selectors (select elements based on a specific relationship between them)</li>
+        <li>Pseudo-class selectors (select elements based on a certain state)</li>
+        <li>Pseudo-elements selectors (select and style a part of an element)</li>
+        <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+    </ol>
+    <p class="eco">Right now we will only learn about basic simple selectors.</p>
+    <pre class="eco">
+        Styling the elements in different ways and through different ways:
+        1. Selecting by name:
+        p{
+            styles here.....
+        }
+        This p is a direct element from the html file.
+        <!-- This i the direct selector aka by name -->
+        2. Selecting by id:
+        #parol{
+            styles here.....
+        }
+        This is the id selector from the file, which selects the element with id = "<b>parol</b>".
+        <!-- This will select the element with the id parol and will style it. -->
+        <!-- The "#" is used to select the id in any and from anywhere in html css and js. -->
+        3. Selecting by Class:
+        .eco{
+            styles here.....
+        }
+        This is the class selector from the file, which selects the element/s with class ="<b>eco</b>"
+        <!-- This will select the element/s with the class eco and style it. -->
+        <!-- The "." is used to select the class in any and from anywhere in html, css and, js -->
+        4. Selecting specific class element:
+        p.eco{
+            styles here.....
+        }
+        This will just select the paras with class "<b>eco</b>".
+        <!-- This will just select the paras with eco and not any other thing or element. -->
+        <!-- The tagname.class is written for selection of elements like this. -->
+        5. Universal Selector:
+        *{
+            styles here.....
+        }
+        This will select all the elements of the file.
+        <!-- "*" is used to select all the elements from the file in css and js. -->
+
+        6. Grouping Selector:
+        h1, p, pre{
+            styles here.....
+        }
+        This will select the elements from h1, p and pre.
+        <!-- The "," are used to select different elements from the file. -->
+    </pre>
+</body>
+</html>
