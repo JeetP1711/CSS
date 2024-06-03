@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+
+}
+div{
+    text-align: center;
+    border: 2px solid purple;
+    margin: 4px;
+    padding: 2px;
+}
+a:hover{
+    color: rgb(227, 45, 227);
+}

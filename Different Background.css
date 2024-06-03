@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color: beige;
+    /* Whole background color of beige */
+}
+.eco{
+    border: 2px solid blue;
+    margin: 10%;
+    padding: 20px;
+    /* Styling the all the backgrounds with margin padding and border */
+}
+#brown{
+    background-color: brown;
+    /* Giving this brown id the bg color brown */
+    color: whitesmoke;
+    /* Giving this the font color whitesmoke */
+}
+#purple{
+    background-color: purple;
+    /* Giving this purple id the bg color purple */
+    color: whitesmoke;
+    /* Giving this the font color whitesmoke */
+}
+#blue{
+    background-color: lightblue;
+    /* Giving this blue id the bg color lightblue */
+    color: darkblue;
+    /* Giving this the font color darkblue */
+}
+#magenta{
+    background-color: rgb(225, 225, 148);
+    /* Giving this magenta id the bg color lightish yellow */
+    color: darkblue;
+    /* Giving this the font color darkblue */
+}
+.else{
+    font-size: 20px;
+}
