@@ -1,0 +1,14 @@
+body{
+    background-color: lightblue;
+    /* This property will make the whole body's background lightblue */
+}
+h1{
+    color: red;
+    /* This property will make the h1's font color red */
+    text-align: center;
+    /* This property will align the text of the h1 to center */
+}
+p{
+    color: white;
+    /* This property will make the para's font color white */
+}
