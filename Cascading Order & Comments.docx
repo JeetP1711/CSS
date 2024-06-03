@@ -1,0 +1,14 @@
+Cascading Order:
+- The inline css will be given the highest priority in the CSS.
+- And then in head section btwn external and internal css, the css which is the last to update will be loaded first and will be give priority.
+
+#TopPriority --> Inline CSS
+#Then --> Last updated in the head section btwn external and internal css.
+
+Comments:
+-HTML Comments:
+<!-- This is html comment. -->
+It can be multiple line and single line too.
+-CSS Comments:
+/* This is css comment. *?
+It can be multiple line and single line too.
