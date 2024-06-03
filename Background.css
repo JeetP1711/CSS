@@ -1,21 +1,26 @@
 body{
     background-color: antiquewhite;
 }
+/* Whole body style */
 h1{
     color: blueviolet;
     text-align: center;
 }
+/* Styling for h1 tag */
 p{
     text-align: center;
     font-size: 20px;
-
 }
+/* Styling for all paras */
 div{
     text-align: center;
     border: 2px solid purple;
     margin: 4px;
     padding: 2px;
 }
+/* Styling for all divs in here. */
 a:hover{
     color: rgb(227, 45, 227);
+    /* This is used for creating the hover effect */
 }
+/* Whole styling part will be learnt soon.............in other file */
