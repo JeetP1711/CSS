@@ -35,4 +35,5 @@ body{
 }
 .else{
     font-size: 20px;
+    /* It will give the 20 px size to the para with class else. */
 }
