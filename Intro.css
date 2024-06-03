@@ -11,4 +11,6 @@ h1{
 p{
     color: white;
     /* This property will make the para's font color white */
+    font-size: 20px;
+    /* This property will make the font size of para to 20px in size. */
 }
