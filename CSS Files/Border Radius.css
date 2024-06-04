@@ -1,0 +1,33 @@
+#p1{
+    border: 2px solid red;
+    border-radius: 0px;
+    padding: 10px;
+}
+#p2{
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+#p3{
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 10px;
+}
+#p4{
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 10px;
+}
+#p5{
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+body{
+    padding: 5px;
+    background-color: azure;
+    font-size: 20px;
+}
+h1{
+    font-size: 31px;
+}
