@@ -1,0 +1,86 @@
+#cur1 {
+  border: 2px solid green;
+  border-radius: 6px;
+  padding: 4px;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/R.9e7453e2671b14d0268925d849d394cb?rik=TQyLdkLRAdcxUA&riu=http%3a%2f%2fwww.freepngimg.com%2fdownload%2fvector%2f24395-6-vector-image.png&ehk=mTgLxObvQQeDfVB5vxM3ROoVs4UkkjccMqHMsQwEKO0%3d&risl=&pid=ImgRaw&r=0);
+}
+pre {
+  color: blue;
+}
+code {
+  color: blueviolet;
+}
+#cur2 {
+  border-radius: 12px;
+  background-color: lightblue;
+  padding: 15px;
+  height: 80px;
+  border: 3px solid blue;
+  width: 50%;
+  margin: auto;
+}
+.ps {
+  text-align: center;
+  font-size: 20px;
+}
+#cur3 {
+  border-radius: 12px;
+  padding: 15px;
+  height: 80px;
+  border: 3px solid blue;
+  width: 50%;
+  margin: auto;
+}
+#cur4 {
+  border-radius: 12px;
+  background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wEaB?ver=832c);
+  padding: 15px;
+  height: 80px;
+  border: 3px solid blue;
+  width: 50%;
+  margin: auto;
+  color: white;
+}
+#cur6 {
+  border-radius: 12px 80px;
+  padding: 15px;
+  background-color: lightgreen;
+  height: 80px;
+  border: 3px solid blue;
+  width: 50%;
+  margin: auto;
+  color: blue;
+}
+#cur5 {
+  border-radius: 30px 0px 0px 0px;
+  padding: 15px;
+  background-color: lightgreen;
+  height: 80px;
+  border: 3px solid blue;
+  width: 50%;
+  margin: auto;
+  color: blue;
+}
+
+#cur7 {
+  border-radius: 12px 80px 30px;
+  padding: 15px;
+  background-color: lightgreen;
+  height: 80px;
+  border: 3px solid blue;
+  width: 50%;
+  margin: auto;
+  color: blue;
+}
+#cur8 {
+  border-radius: 12px;
+  padding: 15px;
+  background-color: lightgreen;
+  height: 80px;
+  border: 3px solid blue;
+  width: 50%;
+  margin: auto;
+  color: blue;
+}
