@@ -11,11 +11,13 @@ code {
 }
 body{
   background-color: rgb(193, 250, 250);
+  font-size: 20px;
+  text-align: center;
 }
 #cur2 {
   border-radius: 12px;
   background-color: lightblue;
-  padding: 15px;
+  padding: 30px;
   height: 80px;
   border: 3px solid blue;
   width: 50%;
@@ -27,7 +29,7 @@ body{
 }
 #cur3 {
   border-radius: 12px;
-  padding: 15px;
+  padding: 30px;
   height: 80px;
   border: 3px solid blue;
   width: 50%;
@@ -36,7 +38,7 @@ body{
 #cur4 {
   border-radius: 12px;
   background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wEaB?ver=832c);
-  padding: 15px;
+  padding: 30px;
   height: 80px;
   border: 3px solid blue;
   width: 50%;
@@ -45,7 +47,7 @@ body{
 }
 #cur6 {
   border-radius: 12px 80px;
-  padding: 15px;
+  padding: 30px;
   background-color: lightgreen;
   height: 80px;
   border: 3px solid blue;
@@ -55,7 +57,7 @@ body{
 }
 #cur5 {
   border-radius: 30px 0px 0px 0px;
-  padding: 15px;
+  padding: 30px;
   background-color: lightgreen;
   height: 80px;
   border: 3px solid blue;
@@ -66,7 +68,7 @@ body{
 
 #cur7 {
   border-radius: 12px 80px 30px;
-  padding: 15px;
+  padding: 30px;
   background-color: lightgreen;
   height: 80px;
   border: 3px solid blue;
@@ -76,7 +78,7 @@ body{
 }
 #cur8 {
   border-radius: 23px 100px 40px 17px;
-  padding: 15px;
+  padding: 30px;
   background-color: lightgreen;
   height: 80px;
   border: 3px solid blue;
@@ -86,7 +88,27 @@ body{
 }
 #cur8 {
   border-radius: 23px 100px 40px 17px;
-  padding: 15px;
+  padding: 30px;
+  background-color: lightgreen;
+  height: 80px;
+  border: 3px solid blue;
+  width: 50%;
+  margin: auto;
+  color: blue;
+}
+#cur9 {
+  border-radius: 50px / 15px;
+  padding: 30px;
+  background-color: lightgreen;
+  height: 80px;
+  border: 3px solid blue;
+  width: 50%;
+  margin: auto;
+  color: blue;
+}
+#cur10 {
+  border-radius: 15px / 50px;
+  padding: 30px;
   background-color: lightgreen;
   height: 80px;
   border: 3px solid blue;
