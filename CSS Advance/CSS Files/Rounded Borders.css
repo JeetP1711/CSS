@@ -3,14 +3,14 @@
   border-radius: 6px;
   padding: 4px;
 }
-body{
-    background-image: url(https://th.bing.com/th/id/R.9e7453e2671b14d0268925d849d394cb?rik=TQyLdkLRAdcxUA&riu=http%3a%2f%2fwww.freepngimg.com%2fdownload%2fvector%2f24395-6-vector-image.png&ehk=mTgLxObvQQeDfVB5vxM3ROoVs4UkkjccMqHMsQwEKO0%3d&risl=&pid=ImgRaw&r=0);
-}
 pre {
   color: blue;
 }
 code {
   color: blueviolet;
+}
+body{
+  background-color: rgb(193, 250, 250);
 }
 #cur2 {
   border-radius: 12px;
@@ -75,7 +75,17 @@ code {
   color: blue;
 }
 #cur8 {
-  border-radius: 12px;
+  border-radius: 23px 100px 40px 17px;
+  padding: 15px;
+  background-color: lightgreen;
+  height: 80px;
+  border: 3px solid blue;
+  width: 50%;
+  margin: auto;
+  color: blue;
+}
+#cur8 {
+  border-radius: 23px 100px 40px 17px;
   padding: 15px;
   background-color: lightgreen;
   height: 80px;
