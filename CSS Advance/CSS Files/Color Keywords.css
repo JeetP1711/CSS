@@ -1,0 +1,30 @@
+body{
+    background-color: lightyellow;
+    color: green;
+}
+.divs{
+    padding: 40px;
+    border: 3px solid rgb(23, 37, 233);
+
+}
+#transparent{
+    background-color: transparent;
+}
+#CurrentColor{
+    background-color: currentColor;
+}
+#CurrentColor p, #CurrentColor h2 {
+    color: azure;
+}
+#Inherit{
+    color: inherit;
+    background-color: inherit;
+}
+#subd{
+    color: rgb(228, 225, 48);
+    background-color: cornflowerblue;
+}
+pre{
+    color: crimson;
+    font-size: 15px;
+}
