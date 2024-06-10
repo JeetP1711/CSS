@@ -40,6 +40,10 @@ body {
     background-color: red;
     background-image: linear-gradient(blue, red, yellow);
 }
+#transp {
+    background-color: red;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
 
 strong {
     font-size: 34px;
@@ -77,4 +81,9 @@ strong {
     color: #888888;
     font-size: 40px;
     font-weight: bold
+}
+
+#multi{
+    background-color: red;
+    background-image: repeating-linear-gradient(53deg, red 10%, yellow 20%);
 }
