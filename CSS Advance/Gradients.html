@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradients in CSS</title>
+    <link rel="stylesheet" href="CSS Files/Gradients.css">
+</head>
+
+<body>
+    <h1>Gradients in CSS</h1>
+    <div id="define">
+        <h3>What is gradient?</h3>
+        <p>Gradient is the effect of two colors mixtures in different ways and giving it a smooth transition.</p>
+        <p>There are three types of gradients in here:</p>
+        <ol>
+            <li>Linear Gradient [goes down/up/left/right/diagonally]</li>
+            <li>Radial Gradient [defined by their center]</li>
+            <li>Conic Gradient [rotated around a center point]</li>
+        </ol>
+    </div>
+    <br>
+    <div id="linear">
+        <h2>1. Linear Gradient:</h2>
+        <p>To create a linear gradient you must define at least two color stops. Color stops are the colors you want to
+            render smooth transitions among. You can also set a starting point and a direction (or an angle) along with
+            the gradient effect.</p>
+        <pre>
+    Syntax of Linear Gradient:👇
+
+    <code>  background-image: linear-gradient(direction, color-stop1, color-stop2, ...);  </code>
+</pre>
+        <div id="top-bottom" class="gradients">
+            <p><strong>Direction: Top to Bottom [This is default]</strong></p>
+            <div id="tb" class="ds"></div>
+            <pre>
+        Code for the following above gradient☝️☝️
+        <code>background-color: red; background-image: linear-gradient(red, yellow);</code>
+    </pre>
+        </div>
+        <div id="left-right" class="gradients">
+            <p><strong>Direction: Left to Right</strong></p>
+            <div id="lr" class="ds"></div>
+            <pre>
+            Code for the following above gradient☝️☝️
+            <code>background-color: red; background-image: linear-gradient(to right ,red, yellow);</code>
+        </pre>
+        </div>
+        <div id="left-right" class="gradients">
+            <p><strong>Direction: Diagonal</strong></p>
+            <div id="dia" class="ds"></div>
+            <pre>
+            Code for the following above gradient☝️☝️
+            <code>background-color: red; background-image: linear-gradient(to bottom right ,red, yellow);</code>
+        </pre>
+            <br>
+        </div>
+        <div id="angles" class="gradients">
+            <p><strong>Using Angles:</strong></p>
+            <p>If you want more control over the direction of the gradient, you can define an angle, instead of the
+                predefined directions (to bottom, to top, to right, to left, to bottom right, etc.). A value of 0deg is
+                equivalent to "to top". A value of 90deg is equivalent to "to right". A value of 180deg is equivalent to
+                "to bottom".</p>
+            <pre>
+            The syntax of the angle is given below👇
+            <code>background-image: linear-gradient(angle, color-stop1, color-stop2);</code>
+        </pre>
+            <div id="deg" class="ds"></div>
+            <pre>
+            Code for the following above gradient☝️☝️
+            <code>background-color: red; background-image: linear-gradient(53deg ,red, yellow);</code>
+        </pre>
+        </div>
+        <div id="multiple" class="gradients">
+            <p><strong>Using Multiple Color Stops:</strong></p>
+            <p>The following example shows a linear gradient (from top to bottom) with multiple color stops:</p>
+            <div id="mul" class="ds"></div>
+        </div>
+        <p><strong>3 Color Stops (evenly spaced):</strong></p>
+        <div id="grad1"></div>
+
+        <p><strong>7 Color Stops (evenly spaced):</strong></p>
+        <div id="grad2"></div>
+
+        <p><strong>3 Color Stops (not evenly spaced):</strong></p>
+        <div id="grad3"></div>
+
+        <div id="rainbow" class="gradients">
+            <p><strong>The Rainbow Effect</strong></p>
+            <div id="rain" class="ds">
+                Rainbow Background
+                </div>
+
+                <div id="transparency" class="gradients">
+                    <p><strong>Transparency Effect</strong></p>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>
