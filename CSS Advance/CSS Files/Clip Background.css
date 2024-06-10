@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Tiny5&display=swap');
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+#example1 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+  }
+  
+  #example2 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+    background-clip: padding-box;
+  }
+  
+  #example3 {
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+    background-clip: content-box;
+  }
+
+  p{
+    font-size: 20px;
+  }
