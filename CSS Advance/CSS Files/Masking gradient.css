@@ -1,0 +1,8 @@
+.maskgrad{
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+    }
+    .radgrad{
+    -webkit-mask-image: radial-gradient(black, transparent);
+    mask-image: radial-gradient(black, transparent);
+}
