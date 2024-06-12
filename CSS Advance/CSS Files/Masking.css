@@ -2,5 +2,11 @@
     -webkit-mask-image: url(w3logo.png);
     mask-image: url(OIP-removebg-preview.png);
     -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;    
-  }
+    mask-repeat: no-repeat;
+}
+.mermask{
+    -webkit-mask-image: url(Mercedes\ no-bg.png);
+    mask-image: url(Mercedes\ no-bg.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
