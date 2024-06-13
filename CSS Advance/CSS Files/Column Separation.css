@@ -1,35 +1,41 @@
-.simple{
+.simple {
     column-count: 3;
 }
-.simple2{
-    column-count: 3;
-    column-gap: 50px;
-}
-.simple3{
+
+.simple2 {
     column-count: 3;
     column-gap: 50px;
-    column-rule: solid;
-    column-rule-width: 4px;
-    column-rule-color: red;
 }
-.simple3{
+
+.simple3 {
     column-count: 3;
     column-gap: 50px;
     column-rule: solid;
     column-rule-width: 4px;
     column-rule-color: red;
 }
-.simple4{
+
+.simple3 {
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: solid;
+    column-rule-width: 4px;
+    column-rule-color: red;
+}
+
+.simple4 {
     column-count: 4;
     column-gap: 50px;
     column-rule: solid;
     column-rule-width: 4px;
     column-rule-color: blue;
 }
-#span{
+
+#span {
     column-span: all;
 }
-.simple5{
+
+.simple5 {
     column-width: 100px;
     column-rule: 2px solid darkgoldenrod;
 }
