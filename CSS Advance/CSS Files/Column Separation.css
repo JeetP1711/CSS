@@ -17,7 +17,7 @@
 
 .simple3 {
     column-count: 3;
-    column-gap: 50px;
+    column-gap: 30px;
     column-rule: solid;
     column-rule-width: 4px;
     column-rule-color: red;
